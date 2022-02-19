@@ -11,6 +11,7 @@
     <top>
         <MenuBar BorderPane.alignment="CENTER">
             <Menu text="File">
+                <MenuItem text="Open" fx:id="openFileMenuItem"/>
                 <MenuItem text="Close" />
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
@@ -27,7 +28,7 @@
     </bottom>
 
     <center>
-        <TextArea prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+        <TextArea prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" fx:id="editorTextArea"/>
     </center>
 
 </BorderPane>
